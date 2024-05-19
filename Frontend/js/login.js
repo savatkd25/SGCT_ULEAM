@@ -56,7 +56,7 @@ const validarCamposVacios = () => {
     if (camposVacios) {
         alert("Por favor, completa todos los campos.");
     } else {
-        window.location.href = "listaMaterias.html";
+        window.location.href = "inicio.html";
     }
 };
 
