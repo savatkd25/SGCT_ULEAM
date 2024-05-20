@@ -30,6 +30,7 @@ const validarFormulario = (e) => {
             validarPassword2();
             break;
         case "password2":
+            validarCampo(expresiones.password, e.target, 'password2');
             validarPassword2();
             break;
         case "correo":
@@ -95,7 +96,7 @@ const validarCamposVacios = () => {
     if (camposVacios) {
         alert("Por favor, completa todos los campos.");
     } else {
-        window.location.href = "inicio.html";
+        window.location.href = "login.html";
     }
 };
 
